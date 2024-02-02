@@ -419,7 +419,7 @@ func (e *Expander) GetResourceInstanceRepetitionData(addr addrs.AbsResourceInsta
 }
 
 // GetModuleCallInstanceKeys determines the child instance keys for one specific
-// instance of a module call.
+// instance of a resource.
 //
 // keyType describes the expected type of all keys in knownKeys, which typically
 // also implies what data type would be used to describe the full set of
